@@ -52,7 +52,7 @@ int isBalanced(char *exp){
 }
 
 int main(){
-   char  * exp=(char*)"((a+b)*(c+d))";
+   char  exp[]="((a+b)*(c+d))";
    cout<<strlen(exp)<<endl; //#include<cstring>
    if(isBalanced(exp)){
        cout<<"This Expression "<<exp<<endl<<"Paranthesis are matching";
